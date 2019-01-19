@@ -10,4 +10,6 @@ The binary encoding is defined as the concatenation of:
 - the length of the value, encoded as a [VarU64](https://github.com/AljoschaMeyer/varu64)
 - the value itself
 
+A *canonic stlv* uses canonic VarU64s.
+
 That's it. There's nothing fancy here, it just needs to be defined somewhere.
