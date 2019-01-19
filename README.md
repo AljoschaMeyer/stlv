@@ -1,8 +1,8 @@
-# YAMF-TLV
+# STLV
 
-> Yet-Another-Multi-Format - Type-Length-Value
+> Simple Type-Length-Value
 
-Yamf-tlv is a binary encoding for [type-length-value](https://en.wikipedia.org/wiki/Type-length-value). The type is an unsigned 64 bit integer, the value can have a length of up to 2^64 - 1 bytes.
+Stlv is a binary encoding for [type-length-value](https://en.wikipedia.org/wiki/Type-length-value). The type is an unsigned 64 bit integer, the value can have a length of up to 2^64 - 1 bytes.
 
 The binary encoding is defined as the concatenation of:
 
